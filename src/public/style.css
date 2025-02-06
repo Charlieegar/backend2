@@ -1,0 +1,103 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor general */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Tarjetas (contenedores) */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-sm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las etiquetas y campos de entrada */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a636b;
+}
+
+/* Botones de inicio de sesión y registro */
+button {
+    margin: 10px 0;
+}
+
+a button {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+/* Estilos para los detalles del usuario */
+.card-sm p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Botón de salir */
+form button[type="submit"] {
+    background-color: #e74c3c;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c0392b;
+}
