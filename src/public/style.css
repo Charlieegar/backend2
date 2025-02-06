@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Contenedor general */
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -15,14 +15,14 @@ body {
     box-sizing: border-box;
 }
 
-/* Títulos */
+
 h1 {
     text-align: center;
     color: #333;
     margin-bottom: 30px;
 }
 
-/* Tarjetas (contenedores) */
+
 .card {
     background-color: #fff;
     border-radius: 8px;
@@ -36,13 +36,13 @@ h1 {
     margin: 0 auto;
 }
 
-/* Formulario */
+
 form {
     display: flex;
     flex-direction: column;
 }
 
-/* Estilo para las etiquetas y campos de entrada */
+
 label {
     font-size: 16px;
     margin-bottom: 8px;
@@ -76,7 +76,7 @@ button:hover {
     background-color: #5a636b;
 }
 
-/* Botones de inicio de sesión y registro */
+
 button {
     margin: 10px 0;
 }
@@ -87,13 +87,13 @@ a button {
     margin: 10px auto;
 }
 
-/* Estilos para los detalles del usuario */
+
 .card-sm p {
     font-size: 16px;
     margin: 10px 0;
 }
 
-/* Botón de salir */
+
 form button[type="submit"] {
     background-color: #e74c3c;
 }
